@@ -35,7 +35,9 @@ float() |	Pro desetinná čísla	float("3.14") -> 3.14 |
 Místo složitého spojování pomocí čárek nebo znamének + používáme f-stringy. Stačí dát před uvozovky písmeno f a proměnné vložit do složených závorek { }.
 
 vek = 18
-print(f"Příští rok ti bude {vek + 1} let.")
+print(f"Příští rok Ti bude {vek + 1} let.")
+print(f"Ahoj { jmeno }") -> Mezery v závorkách nejsou chyba, ale vypadá to nehezky.
+print("Příští rok Ti bude ", věk + 1, " let.") ← Tohle je "stará škola"
 
 ## 5. Komentáře
 
