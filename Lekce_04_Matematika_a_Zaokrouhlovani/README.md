@@ -33,13 +33,12 @@ Pokud je číslo přesně uprostřed (např. 2.5 nebo 3.5), zaokrouhluje k nejbl
 **Bonus: formátovací specifikátor - zaokrouhlí číslo přímo při výpisu**
 
 Nula na konci (Zásadní rozdíl!):
-
-  round(10.5, 2) vypíše: 10.5 (Python nepotřebné nuly maže).
-  f"{10.5:.2f}" vypíše: 10.50 (Vypadá to jako peníze).
+    round(10.5, 2) vypíše: 10.5 (Python nepotřebné nuly maže)
+    f"{10.5:.2f}" vypíše: 10.50 (Vypadá to jako peníze).
     
 Zápis s dvojtečkou je sice šifra, ale je kratší.
-  print(f"Zaplatíte {round(cena, 2)} Kč a zbývá {round(zbytek, 2)} Kč.")
-  print(f"Zaplatíte {cena:.2f} Kč a zbývá {zbytek:.2f} Kč.")
+    print(f"Zaplatíte {round(cena, 2)} Kč a zbývá {round(zbytek, 2)} Kč.")    
+    print(f"Zaplatíte {cena:.2f} Kč a zbývá {zbytek:.2f} Kč.")
 
 :.2f číslo nezmění. V paměti zůstává super přesné (třeba 10 desetinných míst), ale uživatel na obrazovce vidí jen ty dvě. Je to jen "maska".
 round() to číslo skutečně změní. Pokud ho pak použijete v dalším výpočtu, počítáte už s tím "ořezaným".
