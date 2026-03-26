@@ -1,18 +1,29 @@
-# ÚLOHA 1: Sčítací past (Cíl: 5 + 3 = 8)
-# ---------------------------------------------------------
+# 1. Úloha: Sčítací past
+a = int(input("Zadej první číslo: "))
+b = int(input("Zadej druhé číslo: "))
+print("Součet:", a + b)
 
 
-# ÚLOHA 2: Opakovač jména (Cíl: "Honza" a 3 -> "HonzaHonzaHonza")
-# ---------------------------------------------------------
+# 2. Úloha: Opakovač jména
+jmeno = input("Zadej jméno: ")
+pocet = int(input("Kolikrát vypsat jméno: "))
+print((jmeno + " ") * pocet)
 
 
-# ÚLOHA 3: Rok narození (Cíl: 2026 - věk)
-# ---------------------------------------------------------
+# 3. Úloha: Rok narození
+vek = int(input("Kolik ti je let: "))
+rok_narozeni = 2026 - vek
+print("Narodil ses přibližně v roce", rok_narozeni)
 
 
-# ÚLOHA 4: Výplata (Cíl: mzda * hodiny)
-# ---------------------------------------------------------
+# 4. Úloha: Výplata v hotovosti
+mzda = int(input("Zadej hodinovou mzdu: "))
+hodiny = int(input("Zadej počet hodin: "))
+vyplata = mzda * hodiny
+print("Celková výplata:", vyplata)
 
 
-# ÚLOHA 5: Magická matematika (Cíl: (x + 10) * 2)
-# ---------------------------------------------------------
+# 5. Úloha: "Magická" matematika
+cislo = int(input("Zadej číslo: "))
+vysledek = (cislo + 10) * 2
+print("Výsledek:", vysledek)---
